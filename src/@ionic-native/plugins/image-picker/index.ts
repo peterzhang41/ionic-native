@@ -22,6 +22,8 @@ export interface ImagePickerOptions {
    */
   quality?: number;
 
+  desination?: string;
+
   /**
    * Choose the format of the return value.
    * Defined in ImagePicker.OutputType. Default is FILE_URI.
